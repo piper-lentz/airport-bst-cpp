@@ -29,10 +29,11 @@ I used data from OpenFlights.org to complete this project.
 
 
 Table 6:
-Build         Height    Avg depth   Time for 10,000 searches (ms)   Explanation
-File order    177       18.32       2.10       This order will fall between sorted and balanced because it is in an unspecified order
-Sorted order  6071      3035.50     172.05       This order produces a chain BST because every new value is greater than the previous
-Balanced      12        10.65       1.23       Balanced order is the fastest because there are no chains in the BST, so the height is a minimum. Therefore, less comparisons need to be made, so it is the fastest. 
+| Build order | Height | Average depth | Time for 10,000 searches (ms) | Explanation |
+|---|---|---|---|---|
+| File order | 177 | 18.32 | 2.10 | This order will fall between sorted and balanced because it is in an unspecified order |
+| Sorted order | 6071 | 3035.50 | 172.05 | This order produces a chain BST because every new value is greater than the previous |
+| Balanced | 12 | 10.65 | 1.23 | Balanced order is the fastest because there are no chains in the BST, so the height is a minimum. Therefore, less comparisons need to be made, so it is the fastest. |
 
 
 
